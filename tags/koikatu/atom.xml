@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>菠蘿的blog - Koikatu!</title>
     <subtitle>一個大一學生的小嘗試</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://菠蘿.io/tags/koikatu/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://菠蘿.io"/>
+    <link rel="self" type="application/atom+xml" href="https://loveustars.github.io/PineBlog/tags/koikatu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://loveustars.github.io/PineBlog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2025-06-21T00:00:00+00:00</updated>
-    <id>https://菠蘿.io/tags/koikatu/atom.xml</id>
+    <id>https://loveustars.github.io/PineBlog/tags/koikatu/atom.xml</id>
     <entry xml:lang="en">
         <title>FAQ&lt;更新中&gt;</title>
         <published>2025-06-21T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://菠蘿.io/Koikatu高手/faq/"/>
-        <id>https://菠蘿.io/Koikatu高手/faq/</id>
+        <link rel="alternate" type="text/html" href="https://loveustars.github.io/PineBlog/Koikatu高手/faq/"/>
+        <id>https://loveustars.github.io/PineBlog/Koikatu高手/faq/</id>
         
-        <content type="html" xml:base="https://菠蘿.io/Koikatu高手/faq/">&lt;p&gt;&lt;strong&gt;你正在閲讀一個&lt;a href=&quot;https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;%E6%81%8B%E6%B4%BB%EF%BC%81&quot;&gt;傳奇游戲&lt;&#x2F;a&gt;的疑難解答！&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://loveustars.github.io/PineBlog/Koikatu高手/faq/">&lt;p&gt;&lt;strong&gt;你正在閲讀一個&lt;a href=&quot;https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;%E6%81%8B%E6%B4%BB%EF%BC%81&quot;&gt;傳奇游戲&lt;&#x2F;a&gt;的疑難解答！&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;如果你不好好看FAQ就去問問題，群友們將會&lt;strong&gt;狠狠FAQ&lt;&#x2F;strong&gt;你，所以認真尋找后再去問群友&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;qian-qi-zhun-bei&quot;&gt;前期準備&lt;&#x2F;h2&gt;
 &lt;p&gt;確保你下了&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ManlyMarco&#x2F;KK-HF_Patch&#x2F;releases&quot;&gt;HF Patch&lt;&#x2F;a&gt;，或者你下的是Better Repack之類的整合包。如果處理得當，他會在根目錄下顯示KKManager, KoiCatalog, KoikatuCharaReader, CardImageReplacer幾個至關重要的工具資料夾。&lt;&#x2F;p&gt;
