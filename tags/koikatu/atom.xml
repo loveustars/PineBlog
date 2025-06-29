@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>菠蘿的blog - Koikatu!</title>
+    <subtitle>一個大一學生的小嘗試</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://菠蘿.io/tags/koikatu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://菠蘿.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-21T00:00:00+00:00</updated>
+    <id>https://菠蘿.io/tags/koikatu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>FAQ&lt;更新中&gt;</title>
+        <published>2025-06-21T00:00:00+00:00</published>
+        <updated>2025-06-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            菠蘿
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://菠蘿.io/Koikatu高手/faq/"/>
+        <id>https://菠蘿.io/Koikatu高手/faq/</id>
+        
+        <content type="html" xml:base="https://菠蘿.io/Koikatu高手/faq/">&lt;p&gt;&lt;strong&gt;你正在閲讀一個&lt;a href=&quot;https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;%E6%81%8B%E6%B4%BB%EF%BC%81&quot;&gt;傳奇游戲&lt;&#x2F;a&gt;的疑難解答！&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;如果你不好好看FAQ就去問問題，群友們將會&lt;strong&gt;狠狠FAQ&lt;&#x2F;strong&gt;你，所以認真尋找后再去問群友&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;qian-qi-zhun-bei&quot;&gt;前期準備&lt;&#x2F;h2&gt;
+&lt;p&gt;確保你下了&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ManlyMarco&#x2F;KK-HF_Patch&#x2F;releases&quot;&gt;HF Patch&lt;&#x2F;a&gt;，或者你下的是Better Repack之類的整合包。如果處理得當，他會在根目錄下顯示KKManager, KoiCatalog, KoikatuCharaReader, CardImageReplacer幾個至關重要的工具資料夾。&lt;&#x2F;p&gt;
+&lt;blockquote class=&quot;warning&quot;&gt;
+	&lt;p class=&quot;alert-title&quot;&gt;
+		&lt;i class=&quot;icon&quot;&gt;&lt;&#x2F;i&gt;Warning&lt;&#x2F;p&gt;
+	&lt;p&gt;KK本體路徑必須全英文，否則出現什麽問題都有可能。比如0個mod被讀取或者&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;jiao-se-qia&quot;&gt;角色卡&lt;&#x2F;h2&gt;
+&lt;p&gt;角色卡通常放到Koikatsu\UserData\chara\female或male&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;kkmanager&quot;&gt;KKManager&lt;&#x2F;h2&gt;
+&lt;p&gt;這個東西包含在HF Patch中，其餘的那些也都是，不需要安裝HF Patch后額外下載。&lt;&#x2F;p&gt;
+&lt;p&gt;他是一個很有用的篩查哪些mod你缺少的工具，也是側載mod的有效工具。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
