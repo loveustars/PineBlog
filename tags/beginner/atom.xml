@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>菠蘿的blog - Beginner</title>
+    <subtitle>一個大一學生的小嘗試</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://loveustars.github.io/PineBlog/tags/beginner/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://loveustars.github.io/PineBlog/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-29T00:00:00+00:00</updated>
+    <id>https://loveustars.github.io/PineBlog/tags/beginner/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Duckquill初嘗試</title>
+        <published>2025-06-25T00:00:00+00:00</published>
+        <updated>2025-06-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://loveustars.github.io/PineBlog/blog/first/"/>
+        <id>https://loveustars.github.io/PineBlog/blog/first/</id>
+        
+        <content type="html" xml:base="https://loveustars.github.io/PineBlog/blog/first/">&lt;h2 id=&quot;xian-yan-sui-yu&quot;&gt;閑言碎語&lt;&#x2F;h2&gt;
+&lt;p&gt;首先，&lt;a href=&quot;https:&#x2F;&#x2F;duckquill.daudix.one&#x2F;demo&#x2F;&quot;&gt;官方文檔&lt;&#x2F;a&gt;真的很重要。&lt;&#x2F;p&gt;
+&lt;p&gt;刚开始我还在骂&amp;lt;这什么*連個説明檔案都没&amp;gt; 後來才发现错怪人家了，demo就是说明檔……&lt;&#x2F;p&gt;
+&lt;p&gt;想搞一個主頁用主題顯示全體文章，最後還是放棄了，改成僅僅列出全體文章，&lt;del&gt;還是太年輕&lt;&#x2F;del&gt;搞不懂那個list究竟要怎樣（怒）&lt;&#x2F;p&gt;
+&lt;p&gt;但是寫文章比想象中的便捷很多，只用寫md就可以了，謝謝有被爽到🤤🤤🤤&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;kai-shi&quot;&gt;開始&lt;&#x2F;h2&gt;
+&lt;p&gt;在content資料夾下開始大作。如果是大類的資料夾下就放_index.md，貼文的資料夾下放index.md。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;lu-jing&quot;&gt;路徑&lt;&#x2F;h2&gt;
+&lt;p&gt;然後就是各種路徑問題，Zola以及Hugo這類靜態網站建構器的根目錄在本地運行時是在public資料夾裏面。我剛開始設定背景圖片時把Alice放在了content資料夾裏，搞了半天也沒找到&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;loveustars.github.io&#x2F;PineBlog&#x2F;blog&#x2F;first&#x2F;1.png&quot; alt=&quot;Wrong path&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;後來發現是我沒有好好看&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;overview&#x2F;&quot;&gt;&lt;strong&gt;zola&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;的文檔&lt;&#x2F;p&gt;
+&lt;p&gt;(╯°□°）╯︵ ┻━┻&lt;&#x2F;p&gt;
+&lt;p&gt;人家有明確説到背景圖片要放到static資料夾下。如你所見，現在博客的背景就是可愛的女兒啦~&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;bei-jing&quot;&gt;背景&lt;&#x2F;h2&gt;
+&lt;p&gt;全部頁面的背景默認是通過config.toml加載的。&lt;a href=&quot;https:&#x2F;&#x2F;duckquill.daudix.one&#x2F;mods&#x2F;#background-image&quot;&gt;官方mod檔案&lt;&#x2F;a&gt;有講到如何修改，要使用新的style.scss文件，推薦看官方的説明檔。這個config.toml後面還有很多功能都涉及他，後面用到再提。&lt;&#x2F;p&gt;
+&lt;blockquote class=&quot;tip&quot;&gt;
+	&lt;p class=&quot;alert-title&quot;&gt;
+		&lt;i class=&quot;icon&quot;&gt;&lt;&#x2F;i&gt;Tip&lt;&#x2F;p&gt;
+	&lt;p&gt;如果你的背景很淡，不要在去額外加上官方文檔給的調節透明度的代碼，或者將數值調小。默認數值可能會讓背景直接消失，就像我的這個一樣。&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;每篇貼文也可以有自己的開始界面圖面，設置方法是在文章的Markdown文件的開始部分的Extra那裏加一行代碼。&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;markdown&quot; class=&quot;language-markdown z-code&quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;z-text z-html z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-paragraph z-markdown&quot;&gt;[extra]
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-paragraph z-markdown&quot;&gt;banner = &amp;quot;替換爲你的開始圖片名稱.webp&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;注意修改拓展名（如果你沒有複製拓展名的話）。關於路徑的話放在文章的資料夾下就好。&lt;&#x2F;p&gt;
+&lt;p&gt;貼文自己的背景同理，只需要新寫一個style文件然後在文章源文件裏覆蓋掉他即可。&lt;&#x2F;p&gt;
+&lt;blockquote class=&quot;important&quot;&gt;
+	&lt;p class=&quot;alert-title&quot;&gt;
+		&lt;i class=&quot;icon&quot;&gt;&lt;&#x2F;i&gt;Important&lt;&#x2F;p&gt;
+	&lt;p&gt;每次修改記得備份，推薦使用git版本管理。&lt;strong&gt;（一不小心全沒了有你哭的&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;持續更新，別走開！&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
